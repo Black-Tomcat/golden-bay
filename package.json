@@ -1,0 +1,42 @@
+{
+  "name": "golden-bay",
+  "version": "1.0.0",
+  "description": "An amateur game engine written with PIXI.js and React",
+  "main": "electronShell.js",
+  "repository": "https://github.com/Black-Tomcat/golden-bay.git",
+  "author": "Black-Tomcat <tomcat.frantz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ./electronShell.js"
+  },
+  "bin": {
+    "golden": "cli.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-1": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.6.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "antd": "^3.10.4",
+    "async": "^2.6.1",
+    "electron": "^3.0.9",
+    "electron-json-storage": "^4.1.5",
+    "pixi.js": "^5.0.0-rc.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "shelljs": "^0.8.3"
+  }
+}
