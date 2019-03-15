@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import shell from "shelljs";
+var shell = require("shelljs");
 
 shell.exec("electron ./electronShell.js");
