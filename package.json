@@ -1,6 +1,6 @@
 {
   "name": "golden-bay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An amateur game engine written with PIXI.js and React",
   "main": "electronShell.js",
   "repository": "https://github.com/Black-Tomcat/golden-bay.git",
